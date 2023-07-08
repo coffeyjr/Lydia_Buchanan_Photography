@@ -71,6 +71,11 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 2em rgba(0,0,0,.6);
 }
 
+.nav__title {
+    mix-blend-mode: difference;
+    font-family: 'Homemade Apple', cursive;
+}
+
 .contact__button {
     background-color: var(--clr-accent) !important;
 }
