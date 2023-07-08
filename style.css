@@ -130,7 +130,7 @@ svg {
 
 .top--line {
     border-left: 1px solid white;
-    height: 310px;
+    height: 225px;
 }
 
 i + i {
@@ -139,7 +139,7 @@ i + i {
 
 .bottom--line {
     border-left: 1px solid white;
-    height: 310px;
+    height: 225px;
 }
 
 .hero__content {
