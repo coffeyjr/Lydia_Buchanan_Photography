@@ -79,10 +79,6 @@ img, picture {
     color: var(--clr-secondary);
 }
 
-svg {
-    mix-blend-mode: difference;
-}
-
 .nav__list {
     background: none !important;
     backdrop-filter: blur(.5em);
