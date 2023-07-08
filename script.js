@@ -15,3 +15,4 @@ const navObserver = new IntersectionObserver(
 );
 
 navObserver.observe(scrollWatcher);
+

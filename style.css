@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5, h6 {
 .primary--nav {
     padding: 0.25rem;
     color: var(--clr--primary);
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .primary--nav.sticking {
@@ -76,6 +79,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Homemade Apple', cursive;
 }
 
+.nav__link {
+    color: var(--clr-accent)
+}
+
+.nav__img {
+    border-radius: 8px;
+}
+
 .contact__button {
     background-color: var(--clr-accent) !important;
 }
@@ -85,8 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__list {
-    background: none !important;
-    backdrop-filter: blur(.5em);
+    background: var(--clr--primary);
     border-radius: 10px;
     border: 3px solid var(--clr-accent);
 
@@ -94,11 +104,9 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: space-between;
 
-    height: 250px;
-}
+    font-size: 1.125em;
 
-[aria-current="page"] {
-    color: var(--clr-secondary);
+    height: 250px;
 }
 
 #home {
@@ -190,3 +198,136 @@ i + i {
     background: var(--clr-secondary);
 }
 /* End Portfolio Styling */
+
+/* About Styling */
+
+.about__text + .about__text {
+    margin-top: 1em;
+}
+
+.about__img {
+    border-radius: 60px;
+}
+
+/* End About Styling */
+
+
+/* Pricing Styling */
+
+#pricing {
+    background: var(--clr-primary);
+}
+
+.pricing__card {
+    background: #f5f5f5;
+    padding: 2em;
+
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing__card + .pricing__card {
+    margin-top: 1.5em;
+}
+
+.card__title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.card__price {
+    font-size: 1.75em;
+    color: var(--clr-accent);
+}
+
+.card__breakdown {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.pricing__card:last-child {
+    margin-bottom: 3em;
+}
+
+/* End Pricing Styling */
+
+/* Contact Styling */
+#contact {
+    background: url(images/contact__bg.png);
+    background-size: cover;
+}
+
+#section__title {
+    color: var(--clr--primary);
+}
+
+.form__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 3px solid var(--clr-secondary) !important;
+    outline: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 3em;
+
+    width: 100%;
+}
+
+.form__title {
+    color: var(--clr--primary);
+}
+
+p + input {
+    margin-bottom: 1.5em;
+}
+
+.button__submit {
+    background: var(--clr-accent);
+    color: var(--clr--primary);
+
+    padding: .25em 4em;
+    border-radius: 10px;
+
+    margin-top: 1.5em;
+}
+
+/* End Contact Styling */
+
+
+/* Footer Styling */
+
+
+
+/* End Footer Styling */
+
+/* Animation */
+
+/* For animation transition */
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: .5s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* End Animation */
