@@ -1,7 +1,7 @@
 :root {
 
     --clr--primary: #fff;
-    --clr-secondary: #EADDA6;
+    --clr-secondary: #C8D5B9;
     --clr-accent: #5A716A;
 
 }
@@ -311,7 +311,31 @@ p + input {
 
 /* Footer Styling */
 
+footer {
+    background: var(--clr-secondary);
+}
 
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 3em;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.margin-top__0 {
+    margin-top: 0;
+}
+
+.margin-top__0 + .margin-top__0 {
+    margin-left: .5em;
+}
 
 /* End Footer Styling */
 
