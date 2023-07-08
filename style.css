@@ -297,7 +297,7 @@ p + input {
 }
 
 .button__submit {
-    background: var(--clr-accent);
+    background: var(--clr-accent) !important;
     color: var(--clr--primary);
 
     padding: .25em 4em;
