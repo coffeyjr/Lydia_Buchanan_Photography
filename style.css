@@ -103,7 +103,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #home {
     height: 100vh;
-    height: 100dvh;
     background: linear-gradient(to right, rgba(16, 21, 30, 1),rgba(16, 21, 30, 0.75), rgba(16, 21, 30, 0.15), rgba(16, 21, 30, 0), rgba(16, 21, 30, 0)), url('https://images.unsplash.com/photo-1665520675869-077b84d1e5f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1501&q=80');
     background-size: cover;
 }
