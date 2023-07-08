@@ -67,11 +67,20 @@ img, picture {
 }
 
 .primary--nav.sticking {
-    background: var(--clr-secondary);
+    background: var(--clr--primary);
+    box-shadow: 0 0 2em rgba(0,0,0,.6);
 }
 
 .contact__button {
     background-color: var(--clr-accent) !important;
+}
+
+.contact__button.sticking {
+    color: var(--clr-secondary);
+}
+
+svg {
+    mix-blend-mode: difference;
 }
 
 .nav__list {
